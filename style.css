@@ -15,6 +15,7 @@ body{
 
 .container{
     background: hsl(216, 50%, 16%);
+    max-width: 1440px;
     margin: 5rem auto;
     width: 20%;
     padding: 3rem;
@@ -112,4 +113,10 @@ footer p{
 
 footer span{
     color: rgba(255, 255, 255, 0.882);
+}
+
+@media screen and (max-width:376px) {
+    .container{
+        width: 65%;
+    }
 }
